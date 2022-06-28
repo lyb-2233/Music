@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 Vue.use(VueRouter);
+//VUE-route路由，实现单页面项目之间的页面跳转
 
 /* 1 发现音乐 */
 const Findmusic = () => import("../views/findmusic/Findmusic.vue");
